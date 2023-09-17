@@ -46,7 +46,6 @@ img {
 
 .header-container {
     border-bottom: 1px solid #E7E9FC;
-    /* padding: 0 15px; */
 }
 
 .header-wrapper {
@@ -201,7 +200,7 @@ img {
 }
 
 .advantages-item {
-    width: calc((100%-72px)/4);
+    width: calc((100% - 72px) / 4);
 }
 
 .advantages-item>h3 {
@@ -228,8 +227,6 @@ img {
     border-radius: 0px 0px 4px 4px;
 }
 
-.profile-img {}
-
 .employee {
     padding: 32px 0;
 }
@@ -255,7 +252,16 @@ img {
 
 .portfolio-section {
     background-color: inherit;
-    height: 1240px;
+}
+
+.portfolio-title {
+    color: #2E2F42;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .portfolio-list {
@@ -269,16 +275,18 @@ img {
 }
 
 .portfolio-item {
-    padding: 32px 16px;
-    border: 1px solid #E7E9FC;
-    width: 360px;
-
+    width: calc((100% - 48px) / 3);
 }
 
-.portfolio-item>img {
-    margin-top: -33px;
-    margin-left: -17px;
-    /* overflow: visible; */
+/* .portfolio-item>img {
+    overflow:
+} */
+
+.portfolio-item-desc {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+
 }
 
 .portfolio-item-title {
@@ -288,7 +296,7 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
-    margin-top: 32px;
+    margin-bottom: 8px;
 }
 
 .portfolio-item-text {
@@ -301,7 +309,6 @@ img {
 
 .footer {
     background-color: #2E2F42;
-    height: 312px;
     padding: 100px 0;
 }
 
@@ -315,6 +322,8 @@ img {
     text-transform: uppercase;
     color: #4D5AE5;
     margin-top: 1.5px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logo>span {
@@ -322,8 +331,7 @@ img {
 }
 
 .footer-text {
-    display: block;
-    width: 264px;
+    max-width: 264px;
     margin-top: 17.5px;
     color: #F4F4FD;
     font-size: 16px;
