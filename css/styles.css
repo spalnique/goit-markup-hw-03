@@ -26,9 +26,8 @@ img {
 
 .container {
     width: 1158px;
-    padding: 0;
-    margin: 0 auto;
     padding: 0 15px;
+    margin: 0 auto;
 }
 
 .section {
@@ -43,7 +42,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 24px 0px;
+    /* padding: 24px 0px; */
     background-color: #fff;
 }
 
@@ -55,7 +54,6 @@ img {
 .menu {
     display: flex;
     gap: 40px;
-    padding-left: 76px;
 }
 
 .header-logo {
@@ -67,6 +65,7 @@ img {
     letter-spacing: 0.54px;
     text-transform: uppercase;
     color: #4D5AE5;
+    margin-right: 76px;
 }
 
 .header-logo-colored {
@@ -78,6 +77,7 @@ img {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.32px;
+    padding: 24px 0;
 }
 
 .menu-link:hover,
