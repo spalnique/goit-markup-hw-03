@@ -34,14 +34,14 @@ img {
 }
 
 .visually-hidden {
-    position: absolute;
+    /* position: absolute;
     width: 1px;
     height: 1px;
     padding: 0;
-    margin: -1px;
+    margin: -1px; */
     overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border: 0;
+    /* clip: rect(0, 0, 0, 0); */
+    /* border: 0; */
 }
 
 .header-container {
@@ -201,7 +201,7 @@ img {
 }
 
 .advantages-item {
-    flex-basis: calc((100% - 72px) / 4);
+    width: calc((100%-72px)/4);
 }
 
 .advantages-item>h3 {
