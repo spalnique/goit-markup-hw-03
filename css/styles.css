@@ -210,14 +210,16 @@ img {
 
 .team-section {
     background-color: #F4F4FD;
-    height: 732px;
+}
+
+.team-section-title {
+    margin-bottom: 72px;
 }
 
 .team-list {
     display: flex;
     justify-content: center;
     gap: 24px;
-    margin-top: 72px;
 }
 
 .team-card {
