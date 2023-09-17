@@ -42,7 +42,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 24px 0px; */
+    padding: 24px 0px;
     background-color: #fff;
 }
 
@@ -68,7 +68,7 @@ img {
     margin-right: 76px;
 }
 
-.header-logo-colored {
+.header-logo>span {
     color: #2E2F42;
 }
 
@@ -113,6 +113,7 @@ img {
 .banner {
     background-color: #2e2f42;
     text-align: center;
+    padding: 188px 0;
 
 }
 
@@ -285,7 +286,7 @@ img {
     margin-top: 1.5px;
 }
 
-.footer-logo-colored {
+.footer-logo>span {
     color: #f4f4fd;
 }
 
