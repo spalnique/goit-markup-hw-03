@@ -1,3 +1,11 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -10,6 +18,34 @@ a {
 
 ul {
     list-style-type: none;
+}
+
+.container {
+    width: 1158px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: center;
+    gap: 332px; */
+    align-items: center;
+    padding: 24px 0px;
+    border-bottom: 1px solid #E7E9FC;
+    background-color: #fff;
+}
+
+.nav-block {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+    padding-left: 76px;
 }
 
 .header-logo {
@@ -42,18 +78,23 @@ ul {
     text-decoration: underline;
 }
 
-.contact-block {
+.address-block {
     font-style: normal;
 }
 
-.contact-link {
+.address-list {
+    display: flex;
+    gap: 40px;
+}
+
+.address-link {
     color: #434455;
     line-height: 24px;
     letter-spacing: 0.32px;
 }
 
-.contact-link:hover,
-.contact-link:focus {
+.address-link:hover,
+.address-link:focus {
     color: #404BBF;
     line-height: 24px;
     letter-spacing: 0.32px;
@@ -61,18 +102,25 @@ ul {
 
 .banner {
     background-color: #2e2f42;
+    height: 600px;
+    padding-top: 188px;
+    text-align: center;
+
 }
 
 .banner-title {
+    display: inline-block;
     color: #ffffff;
     font-size: 56px;
     font-style: normal;
     line-height: 1.07;
     letter-spacing: 1.12px;
     text-align: center;
+    width: 496px;
 }
 
 .banner-button {
+    display: block;
     background-color: #4D5AE5;
     color: #ffffff;
     font-family: inherit;
@@ -81,6 +129,10 @@ ul {
     line-height: 24px;
     letter-spacing: 0.64px;
     cursor: pointer;
+    margin: 48px auto;
+    padding: 16px 32px;
+    border: 0;
+    border-radius: 4px;
 }
 
 .banner-button:hover,
@@ -120,14 +172,75 @@ ul {
 
 .advantages-section {
     background-color: inherit;
+    height: 344px;
+    padding: 120px 0 120px 0;
+}
+
+.advantages-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
 }
 
 .team-section {
     background-color: #F4F4FD;
+    height: 732px;
+    padding: 120px 0;
+}
+
+.team-list {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    margin-top: 72px;
+}
+
+.team-card {
+    display: block;
+    padding-bottom: 32px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.profile-img {}
+
+.team-card>.list-unit-title {
+    margin-top: 32px;
+}
+
+.team-card>.list-unit-text {
+    margin-top: 8px;
 }
 
 .portfolio-section {
     background-color: inherit;
+    height: 1240px;
+    padding: 120px 0;
+}
+
+.portfolio-list {
+    display: flex;
+    row-gap: 48px;
+    column-gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 72px;
+}
+
+.portfolio-item {
+    padding: 32px 16px;
+    border: 1px solid #E7E9FC;
+    width: 360px;
+
+}
+
+.portfolio-item>img {
+    margin-top: -33px;
+    margin-left: -17px;
 }
 
 .portfolio-item-title {
@@ -137,6 +250,7 @@ ul {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
+    margin-top: 32px;
 }
 
 .portfolio-item-text {
@@ -144,10 +258,13 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
+    margin-top: 8px;
 }
 
 .footer {
     background-color: #2E2F42;
+    height: 312px;
+    padding: 100px 0;
 }
 
 .footer-logo {
@@ -159,6 +276,7 @@ ul {
     letter-spacing: 0.54px;
     text-transform: uppercase;
     color: #4D5AE5;
+    margin-top: 1.5px;
 }
 
 .footer-logo-colored {
@@ -166,6 +284,9 @@ ul {
 }
 
 .footer-text {
+    display: block;
+    width: 264px;
+    margin-top: 17.5px;
     color: #F4F4FD;
     font-size: 16px;
     line-height: 1.5;
