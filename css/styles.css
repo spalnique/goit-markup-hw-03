@@ -124,8 +124,7 @@ img {
     font-style: normal;
     line-height: 1.07;
     letter-spacing: 1.12px;
-    width: 496px;
-    margin-top: 68px;
+    max-width: 496px;
 }
 
 .banner-button {
@@ -138,10 +137,11 @@ img {
     line-height: 24px;
     letter-spacing: 0.64px;
     cursor: pointer;
-    margin: 48px auto 68px;
+    margin: 48px auto 0;
     padding: 16px 32px;
     border: 0;
     border-radius: 4px;
+    min-width: 169px;
 }
 
 .banner-button:hover,
