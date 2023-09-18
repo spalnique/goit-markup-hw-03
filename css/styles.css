@@ -3,14 +3,13 @@
 ::before {
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
 
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #fff;
-    margin: 0;
-    padding: 0;
 }
 
 a {
@@ -49,8 +48,6 @@ img {
 
 .header-container {
     border-bottom: 1px solid #E7E9FC;
-    margin: 0;
-    padding: 0;
 }
 
 .header-wrapper {
@@ -276,7 +273,6 @@ img {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 72px;
 }
 
 .portfolio-item {
