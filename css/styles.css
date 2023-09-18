@@ -39,11 +39,13 @@ img {
     position: absolute;
     width: 1px;
     height: 1px;
-    padding: 0;
     margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
     border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .header-container {
@@ -202,7 +204,7 @@ img {
 }
 
 .advantages-item {
-    flex-basis: calc((100% - 24 * 3) / 4);
+    flex-basis: calc((100% - 24px * 3) / 4);
 }
 
 .advantages-item>h3 {
@@ -276,7 +278,7 @@ img {
 }
 
 .portfolio-item {
-    flex-basis: calc((100% - 2 * 24) / 3);
+    flex-basis: calc((100% - 24px * 2) / 3);
 }
 
 /* .portfolio-item>img {
