@@ -202,7 +202,7 @@ img {
 }
 
 .advantages-item {
-    width: 264px;
+    flex-basis: ((100% - 24 * 3) / 4);
 }
 
 .advantages-item>h3 {
@@ -276,7 +276,7 @@ img {
 }
 
 .portfolio-item {
-    max-width: 360px;
+    flex-basis: ((100% - 2 * 24) / 3);
 }
 
 /* .portfolio-item>img {
