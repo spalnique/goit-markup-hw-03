@@ -59,12 +59,12 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 24px 0px;
     background-color: #fff;
 }
 
 .nav-block {
     display: flex;
+    padding: 24px 0px;
     align-items: center;
 }
 
@@ -107,6 +107,7 @@ img {
 
 .address-block {
     font-style: normal;
+    padding: 24px 0px;
 }
 
 .address-list {
